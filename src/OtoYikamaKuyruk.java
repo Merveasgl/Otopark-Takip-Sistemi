@@ -38,11 +38,9 @@ public class OtoYikamaKuyruk {
         elemanSayisi--;
         return cikanArac;
     }
-
     public AracDugum ilkArac() {    
         return bas;
     }
-
     public int getElemanSayisi() {
         return elemanSayisi;
     }
