@@ -19,7 +19,6 @@
 ## Temel Sınıf ve Düğüm Taslağı
 * **`AracDugum` (Düğüm Sınıfı):**
   * `String plaka`: Aracın plakası
-  * `long girisZamani`: Süre hesabı için sisteme giriş milisaniyesi
   * `double girisTarifesi`: Aracın girdiği andaki geçerli saatlik birim ücret
   * `AracDugum sonraki`: Kuyruktaki bir sonraki aracı gösteren referans
 * **`OtoYikamaKuyruk` (Kuyruk Sınıfı):**
