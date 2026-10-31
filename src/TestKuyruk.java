@@ -15,7 +15,6 @@ public class TestKuyruk {
         }
 
         System.out.println("\n--- Yikama Islemleri Basliyor ---");
-
         AracDugum yikanan1 = yikamaKuyrugu.cikar();      // Sıradan arac cikarma (ilk giren çıkar)
         if (yikanan1 != null) {
             System.out.println("Yikamaya alindi: " + yikanan1.plaka);
