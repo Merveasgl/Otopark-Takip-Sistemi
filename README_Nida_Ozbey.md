@@ -1,7 +1,11 @@
 # Otopark Doluluk ve Araç Takip Sistemi - Bireysel Çalışma Raporu
+
 **Öğrenci:** Nida Özbey
+
 **Görev Alanı:** Otopark Park Yeri Yönetimi, Araç Giriş/Silme İşlemleri ve Dosya Sistemi
+
 **Sorumlu Olunan Veri Yapısı:** Çift Yönlü Bağlı Liste (Doubly Linked List)
+
 
 ---
 
