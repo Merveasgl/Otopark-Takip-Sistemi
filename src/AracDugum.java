@@ -3,6 +3,7 @@ public class AracDugum {
     long girisZamani;
     AracDugum sonraki;   // bir sonraki aracı gosterir
 
+    
     public AracDugum(String plaka) {  //sadece dışarıdan gerekli bilgileri aldık 
         this.plaka = plaka;
         this.girisZamani = System.currentTimeMillis();   //sisteme giriş anı
