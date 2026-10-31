@@ -12,6 +12,7 @@ public class OtoYikamaKuyruk {
     public boolean bosMu() {    // Sirada arac var mi yok mu kontrolu
         return bas == null;
     }
+    
   
     public void ekle(String plaka) {     // Siranin sonuna yeni araç ekleme
         AracDugum yeniArac = new AracDugum(plaka);
