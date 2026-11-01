@@ -16,3 +16,4 @@ public class ParkDugum {
         this.onceki = null;
     }
 }
+
