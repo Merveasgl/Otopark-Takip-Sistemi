@@ -4,8 +4,8 @@ public class ParkDugum {
     String aracSahibi;
     String girisSaati;
 
-    ParkDugum sonraki;
-    ParkDugum onceki;
+    ParkDugum sonraki; //bir sonraki araca giden bağlantı
+    ParkDugum onceki; //geriye giden bağlantı
 
     public ParkDugum(String plaka, String parkYeriNo, String aracSahibi, String girisSaati) {
         this.plaka = plaka;
