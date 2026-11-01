@@ -1,6 +1,6 @@
 public class OtoparkBagliListe {
-    ParkDugum bas;
-    ParkDugum son;
+    ParkDugum bas; //listenin ilk düğümü
+    ParkDugum son; //listenin son düğümü
     int kapasite;
     int aracSayisi;
 
@@ -18,8 +18,8 @@ public class OtoparkBagliListe {
             bas = yeni;
             son = yeni;
         } else {
-            son.sonraki = yeni;
-            yeni.onceki = son;
+            son.sonraki = yeni; //eski son aracın okunu yeni araca bagladık.(ileri bag)
+            yeni.onceki = son; //yeni aracın önceki okunu eski araca bagladık.(geriye bag)
             son = yeni;
         }
         aracSayisi++;
