@@ -4,7 +4,6 @@ public class TestKuyruk {
         double birimUcret = 25.0; // Saniye basina ornek ucret
 
         System.out.println("=== OTO YIKAMA KUYRUK TESTI ===");
-
         yikamaKuyrugu.ekle("23 SY 101");        // Siraya arac ekleme (FIFO testi)
         yikamaKuyrugu.ekle("34 BM 202");
         yikamaKuyrugu.ekle("06 NY 303");
