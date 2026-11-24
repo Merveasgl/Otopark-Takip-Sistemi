@@ -12,7 +12,6 @@ public class OtoYikamaKuyruk {
     public boolean bosMu() {    // Sirada arac var mi yok mu kontrolu
         return bas == null;
     }
-    
   
     public void ekle(String plaka) {     // Siranin sonuna yeni araç ekleme
         AracDugum yeniArac = new AracDugum(plaka);
@@ -39,10 +38,30 @@ public class OtoYikamaKuyruk {
         elemanSayisi--;
         return cikanArac;
     }
+
     public AracDugum ilkArac() {    
         return bas;
     }
+
     public int getElemanSayisi() {
         return elemanSayisi;
     }
+public long gecenSaniye(AracDugum arac) {
+    if (arac == null) {
+        return 0;
+    }
+    long simdi = System.currentTimeMillis();
+    return (simdi - arac.girisZamani) / 1000;
+}
+
+public double ucretHesapla(AracDugum arac, double saniyeUcreti) {
+    if (arac == null) {
+        return 0.0;
+    }
+    long saniye = gecenSaniye(arac);
+    if (saniye < 1) {
+        saniye = 1; // en az 1 birim ucret
+    }
+    return saniye * saniyeUcreti;
+}
 }
